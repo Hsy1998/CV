@@ -444,8 +444,8 @@ id) /*: string*/
 },{}],"30Yv7":[function(require,module,exports) {
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
-let str = `/* 你好，我叫小方
-* 接下来我演示一下我的前端功底
+let str = `/* 你好，我叫黄思煜
+* 接下来我给大家装个B
 * 首先我要准备一个div
 **/
 #div1{
@@ -513,7 +513,7 @@ let setup = () => {
       n += 1; // 54 就不会多打印undefined
       setup();
     }
-  }, 0);
+  }, 37);
 };
 setup();
 
